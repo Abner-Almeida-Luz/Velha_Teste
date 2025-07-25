@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="velha.css" />
+  </head>
+  <body id="body_velha">
+    <div id="escopo_geral">
+      <p class="pes" id="titulo">Jogo da velha</p>
+      <br />
+      <div id="jogo_velha">
+        <button onclick="pressionado(1)" class="espacos" id="espaco1">-</button>
+        <button onclick="pressionado(2)" class="espacos" id="espaco2">-</button>
+        <button onclick="pressionado(3)" class="espacos" id="espaco3">-</button>
+        <button onclick="pressionado(4)" class="espacos" id="espaco4">-</button>
+        <button onclick="pressionado(5)" class="espacos" id="espaco5">-</button>
+        <button onclick="pressionado(6)" class="espacos" id="espaco6">-</button>
+        <button onclick="pressionado(7)" class="espacos" id="espaco7">-</button>
+        <button onclick="pressionado(8)" class="espacos" id="espaco8">-</button>
+        <button onclick="pressionado(9)" class="espacos" id="espaco9">-</button>
+      </div>
+      <button onclick="AlterarModo()" class="pes" id="modo">
+        Alterar modo
+      </button>
+      <button onclick="reiniciar()" class="pes" id="reiniciar">
+        Reiniciar o jogo
+      </button>
+      <br />
+      <p class="pes" id="ganhador">Ganhador ainda não decidido</p>
+    </div>
+
+    <script src="velha.js"></script>
+  </body>
+</html>
